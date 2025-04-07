@@ -18,24 +18,27 @@ ul,ol {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 24px;
 }
 
 /* HEADER */
 
 .page-header {
     background-color: white;
-    padding: 10px;
+    padding: 10px 24px;
 }
 
-.logo {
+.page-header .logo {
     width: 120px;
 }
 
+
+
 /* MAIN */
 
-.container {
+.main-content {
     background-color: white;
+    border-radius: 10px;
 }
 
 .button-task, .button-section {
@@ -56,4 +59,54 @@ ul,ol {
 .button-section {
     border-style: 0,5px solid;
 
+}
+
+.main-list {
+    margin-top: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li{
+    padding: 5px 0;
+}
+
+.check-mark {
+    color: green;
+    border: 1px solid;
+    border-radius:50%;
+    padding: 1px;
+}
+
+.cross {
+    color:red;
+    border: 1px solid;
+    border-radius:50%;
+    padding: 1px;
+}
+
+.editorial {
+    background-color: rgb(118, 171, 233);
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.q1-goals {
+    background-color: rgb(175, 40, 173);
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.recruiting {
+    background-color: rgb(12, 158, 78);
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.mobile {
+    background-color: rgb(250, 142, 9);
+    border-radius: 20px;
+    padding: 4px;
 }
