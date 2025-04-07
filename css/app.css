@@ -1,0 +1,26 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(229, 229, 138);
+}
+
+ul,ol {
+    list-style: none;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* HEADER */
+
+/* MAIN */
